@@ -1,0 +1,34 @@
+  	@font-face {font-family: MetricBold; 
+	src: url("../font/metric/metric-bold.otf") format("opentype");}
+
+	@font-face {font-family: MetricMed; 
+	src: url("../font/metric/metric-medium.otf") format("opentype");}
+	
+	@font-face {font-family: MetricBoldIt; 
+	src: url("../font/metric/metric-bolditalic.otf") format("opentype");}
+  
+  #headername{padding-top: 120px;}
+  
+  body{ font-size:130%; background-color: #FBF1E3;}
+  
+  h1 {font-family: MetricBoldIt, Helvetica, Arial, sans-serif;}
+  
+  p { font-family: MetricMed, Helvetica, Arial, sans-serif; }
+  
+  h4 {font-family: MetricBold, Helvetica, Arial, sans-serif;}
+  
+  h5 {font-family: MetricBold, Helvetica, Arial, sans-serif;}
+  
+  #link:link{color: white;}
+  #link{color: white;}
+  #link:visited{color: white;}
+  #link:hover{color: #000080;}
+  
+  
+  @media only screen and (max-width: 500px) {
+  
+	body { font-size:110%;}
+	#headername{padding-top: 30px;}
+  }
+  
+  #imgslide{border: 5px solid #B87641;}
